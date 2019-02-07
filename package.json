@@ -1,0 +1,19 @@
+{
+  "name": "findmydietapi",
+  "version": "1.0.0",
+  "description": "RESTful findMyDietApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nadeera",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10"
+  }
+}
